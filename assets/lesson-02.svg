@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="自研环境光传感器">
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#f5f5f7"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".14"/></filter></defs>
+  <rect width="960" height="540" rx="36" fill="url(#bg)"/>
+  <text x="72" y="78" font-family="Microsoft YaHei, Arial" font-size="30" fill="#0071e3" font-weight="800">第 2 课 · 传感器</text>
+  <g filter="url(#s)"><rect x="86" y="150" width="286" height="200" rx="30" fill="#1d1d1f"/><rect x="122" y="184" width="214" height="72" rx="15" fill="#2c2c2e"/><circle cx="148" cy="305" r="15" fill="#ff9f0a"/><circle cx="204" cy="305" r="15" fill="#34c759"/><circle cx="260" cy="305" r="15" fill="#007aff"/><circle cx="316" cy="305" r="15" fill="#af52de"/></g>
+  <path d="M372 240 C470 190 535 190 632 240" fill="none" stroke="#34c759" stroke-width="10" stroke-linecap="round"/><path d="M372 290 C480 342 560 342 674 290" fill="none" stroke="#8e8e93" stroke-width="7" stroke-linecap="round"/>
+  <g filter="url(#s)"><rect x="622" y="140" width="252" height="218" rx="36" fill="#34c759"/><circle cx="704" cy="232" r="42" fill="#fff" opacity=".92"/><circle cx="792" cy="232" r="42" fill="#fff" opacity=".92"/><rect x="688" y="302" width="120" height="18" rx="9" fill="#fff" opacity=".92"/></g>
+  <text x="480" y="430" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="42" fill="#1d1d1f" font-weight="850">自研环境光传感器</text>
+  <text x="480" y="474" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="24" fill="#6e6e73">看图认识 · 正确接线 · Mind+ 实践</text>
+</svg>

@@ -1,0 +1,22 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="NFC拨码开关IIC模式说明图">
+  <rect width="960" height="540" rx="36" fill="#f5f5f7"/>
+  <text x="70" y="78" font-family="Microsoft YaHei, Arial" font-size="38" fill="#1d1d1f" font-weight="850">拨码开关：选择 IIC 模式</text>
+  <text x="70" y="124" font-family="Microsoft YaHei, Arial" font-size="23" fill="#6e6e73">本课只使用 SCL / SDA / VCC / GND 四个 IIC 接口。</text>
+  <g filter="drop-shadow(0 18px 22px rgba(0,0,0,.16))">
+    <rect x="90" y="170" width="360" height="245" rx="32" fill="#d71920"/>
+    <rect x="135" y="215" width="150" height="110" rx="12" fill="#1d1d1f"/>
+    <rect x="155" y="235" width="42" height="70" rx="8" fill="#ff9f0a"/>
+    <rect x="222" y="235" width="42" height="70" rx="8" fill="#ff9f0a"/>
+    <text x="210" y="360" text-anchor="middle" font-family="Arial" font-size="28" fill="#fff" font-weight="800">DIP</text>
+    <circle cx="350" cy="218" r="12" fill="#fff"/><circle cx="350" cy="260" r="12" fill="#fff"/><circle cx="350" cy="302" r="12" fill="#fff"/><circle cx="350" cy="344" r="12" fill="#fff"/>
+    <text x="380" y="226" font-family="Arial" font-size="24" fill="#fff" font-weight="800">SCL</text>
+    <text x="380" y="268" font-family="Arial" font-size="24" fill="#fff" font-weight="800">SDA</text>
+    <text x="380" y="310" font-family="Arial" font-size="24" fill="#fff" font-weight="800">VCC</text>
+    <text x="380" y="352" font-family="Arial" font-size="24" fill="#fff" font-weight="800">GND</text>
+  </g>
+  <g>
+    <rect x="560" y="170" width="310" height="72" rx="22" fill="#34c759"/><text x="715" y="216" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="28" fill="#fff" font-weight="850">拨到 IIC/I2C</text>
+    <rect x="560" y="270" width="310" height="72" rx="22" fill="#fff" stroke="#d2d2d7" stroke-width="3"/><text x="715" y="316" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="26" fill="#6e6e73" font-weight="800">不使用 SPI 引脚</text>
+    <rect x="560" y="370" width="310" height="72" rx="22" fill="#fff" stroke="#007aff" stroke-width="3"/><text x="715" y="416" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="26" fill="#007aff" font-weight="800">程序初始化 NFC(IIC)</text>
+  </g>
+</svg>

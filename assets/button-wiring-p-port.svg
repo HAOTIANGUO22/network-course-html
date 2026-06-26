@@ -1,0 +1,26 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="按钮模块接掌控板P口接线图">
+  <rect width="960" height="540" rx="36" fill="#f5f5f7"/>
+  <text x="70" y="70" font-family="Microsoft YaHei, Arial" font-size="34" fill="#1d1d1f" font-weight="800">按钮模块接线：S 接 P 口</text>
+  <g filter="drop-shadow(0 16px 22px rgba(0,0,0,.14))">
+    <rect x="90" y="145" width="320" height="245" rx="30" fill="#1d1d1f"/>
+    <rect x="130" y="185" width="240" height="80" rx="16" fill="#2c2c2e"/>
+    <text x="250" y="305" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="30" fill="#fff" font-weight="800">掌控板</text>
+    <circle cx="150" cy="360" r="16" fill="#007aff"/><text x="150" y="410" text-anchor="middle" font-family="Arial" font-size="22" fill="#1d1d1f" font-weight="700">P0</text>
+    <circle cx="220" cy="360" r="16" fill="#34c759"/><text x="220" y="410" text-anchor="middle" font-family="Arial" font-size="22" fill="#1d1d1f" font-weight="700">P1</text>
+    <circle cx="290" cy="360" r="16" fill="#ff9f0a"/><text x="290" y="410" text-anchor="middle" font-family="Arial" font-size="22" fill="#1d1d1f" font-weight="700">P2</text>
+    <circle cx="360" cy="360" r="16" fill="#af52de"/><text x="360" y="410" text-anchor="middle" font-family="Arial" font-size="22" fill="#1d1d1f" font-weight="700">P8</text>
+  </g>
+  <g filter="drop-shadow(0 16px 22px rgba(0,0,0,.14))">
+    <rect x="625" y="160" width="220" height="210" rx="32" fill="#007aff"/>
+    <circle cx="735" cy="250" r="58" fill="#fff" opacity=".95"/>
+    <circle cx="735" cy="250" r="34" fill="#d7ebff"/>
+    <text x="735" y="338" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="28" fill="#fff" font-weight="800">按钮模块</text>
+    <text x="650" y="190" font-family="Arial" font-size="24" fill="#fff" font-weight="800">V</text>
+    <text x="650" y="224" font-family="Arial" font-size="24" fill="#fff" font-weight="800">G</text>
+    <text x="650" y="258" font-family="Arial" font-size="24" fill="#fff" font-weight="800">S</text>
+  </g>
+  <path d="M650 185 C540 165 470 165 360 210" stroke="#ff9f0a" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M650 220 C540 240 480 270 360 285" stroke="#6e6e73" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M650 255 C520 315 430 350 290 360" stroke="#007aff" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <text x="480" y="455" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="26" fill="#424245">V 接电源 · G 接地 · S 接 P0/P1/P2 等输入口</text>
+</svg>

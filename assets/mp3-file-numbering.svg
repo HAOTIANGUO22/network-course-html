@@ -1,0 +1,16 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="MP3音频文件编号示意图">
+  <rect width="960" height="540" rx="36" fill="#f5f5f7"/>
+  <text x="70" y="72" font-family="Microsoft YaHei, Arial" font-size="36" fill="#1d1d1f" font-weight="850">播放前：先准备 TF 卡音频</text>
+  <text x="70" y="116" font-family="Microsoft YaHei, Arial" font-size="22" fill="#6e6e73">把音频按编号保存，程序才能准确播放第几首。</text>
+  <g filter="drop-shadow(0 16px 24px rgba(0,0,0,.14))">
+    <rect x="90" y="165" width="260" height="260" rx="28" fill="#1d1d1f"/>
+    <rect x="126" y="205" width="188" height="146" rx="16" fill="#2c2c2e"/>
+    <text x="220" y="386" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="30" fill="#fff" font-weight="850">TF 卡</text>
+  </g>
+  <g font-family="Microsoft YaHei, Arial" font-size="28" font-weight="800">
+    <rect x="450" y="160" width="330" height="62" rx="18" fill="#fff" stroke="#ff9f0a" stroke-width="4"/><text x="480" y="202" fill="#1d1d1f">0001.mp3  欢迎提示音</text>
+    <rect x="450" y="250" width="330" height="62" rx="18" fill="#fff" stroke="#34c759" stroke-width="4"/><text x="480" y="292" fill="#1d1d1f">0002.mp3  操作成功</text>
+    <rect x="450" y="340" width="330" height="62" rx="18" fill="#fff" stroke="#007aff" stroke-width="4"/><text x="480" y="382" fill="#1d1d1f">0003.mp3  请重试</text>
+  </g>
+  <text x="480" y="470" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="24" fill="#424245">课堂建议：先准备 3 段短音频，方便做切换和状态播报</text>
+</svg>

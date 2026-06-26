@@ -1,0 +1,13 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="按键消抖示意图">
+  <rect width="960" height="540" rx="36" fill="#f5f5f7"/>
+  <text x="70" y="72" font-family="Microsoft YaHei, Arial" font-size="36" fill="#1d1d1f" font-weight="850">按键为什么要消抖？</text>
+  <text x="70" y="116" font-family="Microsoft YaHei, Arial" font-size="22" fill="#6e6e73">机械按键按下的一瞬间，信号可能会快速跳动几次。</text>
+  <line x1="90" y1="235" x2="850" y2="235" stroke="#d2d2d7" stroke-width="4"/>
+  <text x="90" y="205" font-family="Microsoft YaHei, Arial" font-size="24" fill="#1d1d1f" font-weight="800">未消抖：一次按下，可能被读成多次</text>
+  <polyline points="120,285 210,285 210,220 238,220 238,285 265,285 265,220 292,220 292,285 320,285 320,220 650,220" fill="none" stroke="#ff375f" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="90" y="380" font-family="Microsoft YaHei, Arial" font-size="24" fill="#1d1d1f" font-weight="800">消抖后：等待 20~50 ms，再确认一次</text>
+  <polyline points="120,455 300,455 300,390 650,390" fill="none" stroke="#34c759" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="690" y="348" width="190" height="94" rx="18" fill="#fff" stroke="#34c759" stroke-width="4"/>
+  <text x="785" y="386" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="22" fill="#1d1d1f" font-weight="800">Mind+做法</text>
+  <text x="785" y="420" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="20" fill="#424245">按下 → 等待 → 再判断</text>
+</svg>
