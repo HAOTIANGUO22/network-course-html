@@ -4,7 +4,18 @@
 
 ## 打开方式
 
-直接打开 `index.html`，按照首页顺序学习。
+本地直接打开 `public/index.html`，或者使用 Node.js 服务：
+
+```bash
+npm install
+npm start
+```
+
+默认访问地址：
+
+```text
+http://服务器IP:3000/
+```
 
 ## 当前课程顺序
 
@@ -21,7 +32,8 @@
 
 ## 文件说明
 
-- `index.html`：课程首页
-- `课程大纲.html`：课程大纲
-- `课程清单.json`：课程顺序数据
-- `assets/`：课件图片和接线图资源
+- `server.js`：Express 静态服务
+- `public/index.html`：课程首页
+- `public/课程大纲.html`：课程大纲
+- `public/课程清单.json`：课程顺序数据
+- `public/assets/`：课件图片和接线图资源

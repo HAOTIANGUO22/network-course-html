@@ -1,0 +1,16 @@
+{
+  "name": "network-course-html",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js static server for the network course HTML files.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
