@@ -1,4 +1,4 @@
-# 部署说明
+﻿# 部署说明
 
 ## 1. 上传文件
 
@@ -18,16 +18,16 @@ npm install
 npm start
 ```
 
-默认端口是 `3000`。访问：
+默认端口是 `5000`。访问：
 
 ```text
-http://服务器IP:3000/
+http://服务器IP:5000/
 ```
 
 如需改端口：
 
 ```bash
-PORT=8080 npm start
+PORT=5000 npm start
 ```
 
 ## 3. 后台常驻（推荐 pm2）
@@ -58,7 +58,7 @@ server {
     server_name course.example.com;
 
     location / {
-        proxy_pass http://127.0.0.1:3000;
+        proxy_pass http://127.0.0.1:5000;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
@@ -72,3 +72,4 @@ server {
 nginx -t
 systemctl reload nginx
 ```
+

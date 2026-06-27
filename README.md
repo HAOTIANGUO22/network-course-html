@@ -14,7 +14,7 @@ npm start
 默认访问地址：
 
 ```text
-http://服务器IP:3000/
+http://服务器IP:5000/
 ```
 
 ## 当前课程顺序
@@ -37,3 +37,4 @@ http://服务器IP:3000/
 - `public/课程大纲.html`：课程大纲
 - `public/课程清单.json`：课程顺序数据
 - `public/assets/`：课件图片和接线图资源
+

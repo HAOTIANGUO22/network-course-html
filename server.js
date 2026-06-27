@@ -1,8 +1,8 @@
-const path = require("path");
+﻿const path = require("path");
 const express = require("express");
 
 const app = express();
-const port = Number(process.env.PORT) || 3000;
+const port = Number(process.env.PORT) || 5000;
 const publicDir = path.join(__dirname, "public");
 
 app.use((req, res, next) => {
@@ -41,3 +41,4 @@ app.use((err, req, res, next) => {
 app.listen(port, "0.0.0.0", () => {
   console.log(`Server running on port ${port}`);
 });
+
